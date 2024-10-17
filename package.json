@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "safe-event-emitter": "^1.0.1"
+  }
+}
