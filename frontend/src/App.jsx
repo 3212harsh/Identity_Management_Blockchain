@@ -33,7 +33,7 @@ function App() {
     try {
       setLoading(true); 
       const userHash = await addUser(name, dob, idtype, idNum, idAddr, idGender);
-      setAddUserResult(`User added with UID: ${userHash.events.UserAdded.returnValues.uid}`);
+      setAddUserResult(`${userHash.events.UserAdded.returnValues.uid}`);
       setName('');
       setDob('');
       setIdNum('');
